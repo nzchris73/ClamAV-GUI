@@ -19,5 +19,7 @@
 #define IDC_NOPE                                1011
 #define IDC_NOOLE2                              1012
 #define IDC_NOHTML                              1013
-#define IDC_STATUS                              1014
-#define IDC_CMDLINE                             1015
+#define IDC_NOPDF                               1014
+#define IDC_STATUS                              1015
+#define IDC_CMDLINE                             1016
+

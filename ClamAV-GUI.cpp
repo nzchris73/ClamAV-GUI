@@ -41,13 +41,14 @@ static Option options[] =
 {
     { "-r",             IDC_RECURSE         },
     { "--remove",       IDC_REMOVE          },
-    { "-i",             IDC_ONLYINFECTED    },
+    { "--infected",     IDC_ONLYINFECTED    },
 
-    { "--no-mail",      IDC_NOMAIL          },
-    { "--no-pe",        IDC_NOPE            },
-    { "--no-ole2",      IDC_NOOLE2          },
-    { "--no-html",      IDC_NOHTML          },
-    { "--no-archive",   IDC_NOARCHIVES      },
+    { "--scan-mail=no",      IDC_NOMAIL          },
+    { "--scan-pe=no",        IDC_NOPE            },
+    { "--scan-ole2=no",      IDC_NOOLE2          },
+    { "--scan-html=no",      IDC_NOHTML          },
+    { "--scan-archive=no",   IDC_NOARCHIVES      },
+    { "--scan-pdf=no",   IDC_NOPDF      },
 
     { NULL, 0 }
 };

@@ -1,4 +1,5 @@
-#include <windows.h>
+//#include <windows.h>
+#include <winres.h>
 #include <commctrl.h>
 #include <richedit.h>
 #include "resource.h"
@@ -30,6 +31,7 @@ FONT 8, "MS Shell Dlg", 400, 0, 1
     AUTOCHECKBOX    "Skip PE", IDC_NOPE, 142, 50, 39, 10, WS_GROUP
     AUTOCHECKBOX    "Skip OLE2", IDC_NOOLE2, 142, 60, 47, 10, WS_GROUP
     AUTOCHECKBOX    "Skip HTML", IDC_NOHTML, 142, 70, 48, 10, WS_GROUP
+    AUTOCHECKBOX    "Skip PDF", IDC_NOPDF, 142, 90, 48, 10, WS_GROUP
     GROUPBOX        "File Types", IDC_STATIC, 137, 32, 113, 71, WS_GROUP
     DEFPUSHBUTTON   "Cancel", IDC_CANCEL, 329, 89, 84, 14
     EDITTEXT        IDC_STATUS, 7, 110, 406, 139, WS_HSCROLL | WS_VSCROLL | ES_AUTOHSCROLL | ES_AUTOVSCROLL | ES_MULTILINE | ES_READONLY
